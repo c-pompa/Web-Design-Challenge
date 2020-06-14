@@ -117,6 +117,10 @@ article {
     height: 90%;
 }
 
+article img {
+    width: 80%;
+}
+
 article h2 {
     color: rgb(2, 126, 95);
     font-weight: bold;
@@ -128,13 +132,17 @@ article h2 {
     height: 330px;
 }
 
+#add img {
+    width: 100px;
+}
+
 figure {
     border: thin #c0c0c0 solid;
     /* flex-flow: wrap; */
-    padding: 5px;
+    padding: 11px;
     max-width: 400px;
     height: 330px;
-    margin: auto;
+    margin: 5px;
 }
 
 
@@ -171,4 +179,43 @@ h3 {
     padding: 10px 0px;
     background-color: rgb(41, 51, 59);
     text-align: center;
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+
+/* @media (min-width: 768px) { ... } */
+
+
+/* // Large devices (desktops, 992px and up) */
+
+
+/* @media (min-width: 992px) { ... } */
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+
+/* @media (min-width: 1200px) { ... } */
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 575.98px) {
+    figure {
+        height: 270px;
+    }
+    article {
+        height: 92%;
+    }
+    .small-image img {
+        text-align: center;
+        width: 90px;
+        height: 90px;
+    }
+    #add {
+        width: 100%;
+        height: 230px;
+    }
 }
