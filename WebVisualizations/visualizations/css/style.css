@@ -1,200 +1,165 @@
-/* Header top bar */
+/* // Large devices (desktops, less than 1200px) */
 
-
-/* beginning of header */
-
-header {
-    background-color: #ffffff;
-    border-bottom: 1px;
-    height: 73px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-
-/* Box holding h1 text */
-
-#header-text {
-    background-color: rgb(2, 126, 95);
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-
-#header-text a {
-    background-color: rgb(2, 126, 95);
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-}
-
-header h1 {
-    padding: 20px 0px 20px 0px;
-    margin: 0;
-    font-size: 28px;
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
-    width: 100%;
-}
-
-
-/* Navigation */
-
-
-/* Box holding nav ul li text */
-
-.nav li a {
-    color: black;
-    text-align: center;
-    padding: 24px 16px;
-    text-decoration: none;
-}
-
-.nav li a:hover {
-    color: white;
-    text-align: center;
-    padding: 24px 16px;
-    text-decoration: none;
-    background: rgb(2, 126, 95);
-}
-
-.nav li a:active {
-    color: white;
-    text-align: center;
-    padding: 24px 16px;
-    text-decoration: none;
-    background-color: rgb(2, 126, 95);
-}
-
-.dropdown .dropdown-menu {
-    background-color: #fff;
-}
-
-.dropdown .dropdown-menu .btn:hover {
-    background-color: rgb(2, 126, 95);
-    color: #fff;
-}
-
-.dropdown .btn:hover {
-    background-color: rgb(2, 126, 95);
-    color: #fff;
-}
-
-.nav li .btn.btn-success.active,
-.nav li .btn.btn-success:active {
-    background: rgb(2, 126, 95);
-    color: #fff;
-}
-
-
-/* Body */
-
-
-/* beginning of body */
-
-.body {
-    font-family: "Times New Roman", Times, serif;
-    background-color: rgb(216, 216, 216);
-    margin: 0px;
-    padding: 0px;
-    /* margin-top: 50px; */
-}
-
-header .container {
-    width: 100%;
-}
-
-article {
-    width: 100%;
-    height: 500px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 14px;
-    color: #333;
-    background-color: rgb(255, 255, 255);
-    padding: 35px 20px 70px 20px;
-    margin: 50px 0px 0px 0px;
-    height: 90%;
-}
-
-article img {
-    width: 80%;
-}
-
-article h2 {
-    color: rgb(2, 126, 95);
-    font-weight: bold;
-    font-size: 26px;
-}
-
-#add {
-    width: 100%;
-    height: 330px;
-    text-align: center;
-}
-
-#add img {
-    width: 100px;
-}
-
-figure {
-    border: thin #c0c0c0 solid;
-    /* flex-flow: wrap; */
-    padding: 11px;
-    max-width: 400px;
-    height: 330px;
-    margin: 5px;
-}
-
-figure img {
-    width: 100%;
-}
-
-figcaption {
-    background-color: rgb(24, 90, 76);
-    color: #fff;
-    font-weight: bold;
-    padding: 5px;
-    text-align: center;
-}
-
-h3 {
-    color: rgb(2, 126, 95);
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.footer {
-    position: relative;
-    height: 50px;
-    padding: 10px 0px;
-    color: white;
-    background-color: teal;
-    text-align: center;
-}
-
-#footer-text {
-    height: 40px;
-    padding: 10px 0px;
-    background-color: rgb(41, 51, 59);
-    text-align: center;
-}
-
-
-/* 575.98px and BELOW */
-
-@media (max-width: 575.98px) {
-    figure {
-        height: 270px;
+@media (max-width: 1199.98px) {
+    /* Header top bar */
+    /* beginning of header */
+    header {
+        background-color: #ffffff;
+        border-bottom: 1px;
+        height: 73px;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
-    .small-image img {
-        text-align: center;
-        width: 40px;
-        height: 40px;
-    }
-    .add {
+    /* Box holding h1 text */
+    #header-text {
+        background-color: rgb(2, 126, 95);
         width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #header-text a {
+        background-color: rgb(2, 126, 95);
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+    }
+    header h1 {
+        padding: 20px 0px 20px 0px;
+        margin: 0;
+        font-size: 28px;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+    }
+    /* Navigation */
+    /* Box holding nav ul li text */
+    .nav li a {
+        color: black;
+        text-align: center;
+        padding: 24px 16px;
+        text-decoration: none;
+    }
+    .nav li a:hover {
+        color: white;
+        text-align: center;
+        padding: 24px 16px;
+        text-decoration: none;
+        background: rgb(2, 126, 95);
+    }
+    .nav li a:active {
+        color: white;
+        text-align: center;
+        padding: 24px 16px;
+        text-decoration: none;
+        background-color: rgb(2, 126, 95);
+    }
+    .dropdown .dropdown-menu {
+        background-color: #fff;
+    }
+    .dropdown .dropdown-menu .btn:hover {
+        background-color: rgb(2, 126, 95);
+        color: #fff;
+    }
+    .dropdown .btn:hover {
+        background-color: rgb(2, 126, 95);
+        color: #fff;
+    }
+    .nav li .btn.btn-success.active,
+    .nav li .btn.btn-success:active {
+        background: rgb(2, 126, 95);
+        color: #fff;
+    }
+    /* Body */
+    /* beginning of body */
+    .body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: rgb(216, 216, 216);
+        margin: 0px;
+        padding: 0px;
+        /* margin-top: 50px; */
+    }
+    header .container {
+        width: 100%;
+    }
+    article {
+        width: 100%;
+        height: 500px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 14px;
+        color: #333;
+        background-color: rgb(255, 255, 255);
+        padding: 35px 20px 70px 20px;
+        margin: 50px 0px 0px 0px;
+        height: 90%;
+    }
+    /* article img { */
+    /* width: 80%; */
+    /* } */
+    article h2 {
+        color: rgb(2, 126, 95);
+        font-weight: bold;
+        font-size: 26px;
+    }
+    #add {
+        width: 100%;
+        height: 330px;
+        text-align: center;
+    }
+    #add img {
+        width: 100px;
+    }
+    figure {
+        border: thin #c0c0c0 solid;
+        /* flex-flow: wrap; */
+        padding: 11px 10px 5px 10px;
+        max-width: 400px;
+        height: 310px;
+        margin: 5px;
+    }
+    figure img {
+        width: 100%;
+    }
+    figcaption {
+        background-color: rgb(24, 90, 76);
+        color: #fff;
+        font-weight: bold;
+        padding: 5px;
+        text-align: center;
+    }
+    h3 {
+        color: rgb(2, 126, 95);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .footer {
+        position: relative;
         height: 50px;
+        padding: 10px 0px;
+        color: white;
+        background-color: teal;
+        text-align: center;
+    }
+    #footer-text {
+        height: 40px;
+        padding: 10px 0px;
+        background-color: rgb(41, 51, 59);
+        text-align: center;
+    }
+}
+
+
+/* // Large devices (desktops, less than 990px) */
+
+@media (max-width: 991.98px) {
+    #add {
+        height: 530px;
+    }
+    article img {
+        width: 100%;
+    }
+    figure {
+        height: 250px;
     }
 }
 
@@ -202,25 +167,43 @@ h3 {
 /* // Small devices (landscape phones, less than 768px) */
 
 @media (max-width: 767.98px) {
+    figure {
+        height: 300px;
+    }
     article h3 {
         font-size: 18px;
     }
-    #add {
-        width: 100%;
-        height: 50px;
+    .article {
+        height: 93%;
     }
-}
-
-@media (max-width: 991.98px) {
     #add {
-        width: 100%;
         height: 530px;
     }
 }
 
 
-/* // Large devices (desktops, less than 1200px) */
+/* 575.98px and BELOW */
 
-*/ @media (max-width: 1199.98px) {
-    ...
+@media (max-width: 575.98px) {
+    figure {
+        height: 300px;
+        text-align: center;
+    }
+    .small-image img {
+        text-align: center;
+        width: 40px;
+        height: 40px;
+    }
+    #add {
+        height: 300px;
+        text-align: center;
+    }
+    .article {
+        height: 95%;
+        text-align: center;
+        padding: 5px 5px;
+    }
+    .container {
+        margin-bottom: 10px;
+    }
 }
