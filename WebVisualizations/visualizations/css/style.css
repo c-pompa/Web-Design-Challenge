@@ -1,6 +1,6 @@
 /* // Large devices (desktops, less than 1200px) */
 
-@media (max-width: 1199.98px) {
+@media (max-width: 4000px) {
     /* Header top bar */
     /* beginning of header */
     header {
@@ -246,3 +246,6 @@
         float: right;
     }
 }
+
+
+/*-- data table --*/
