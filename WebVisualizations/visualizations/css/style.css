@@ -168,6 +168,9 @@
     .topnav-right {
         float: right;
     }
+    .jexcel_content {
+        display: block;
+    }
 }
 
 
@@ -251,5 +254,5 @@
 /*-- data table --*/
 
 #spreadsheet {
-    width: 90%;
+    width: 100%;
 }
