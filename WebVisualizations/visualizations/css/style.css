@@ -168,8 +168,8 @@
     .topnav-right {
         float: right;
     }
-    .jexcel_content {
-        display: block;
+    .container .jexcel_content {
+        display: ;
     }
 }
 
