@@ -5,8 +5,6 @@
     /* beginning of header */
     header {
         background-color: #ffffff;
-        border-bottom: 1px;
-        /* height: 73px; */
         font-family: Georgia, "Times New Roman", Times, serif;
     }
     /* Box holding h1 text */
@@ -37,6 +35,8 @@
     header .navbar {
         align-content: right;
         padding-bottom: 0px;
+        padding-top: 1px;
+        margin: 0px;
     }
     .nav li a {
         color: black;
@@ -157,6 +157,13 @@
     }
     .jexcel_container .jexcel_content {
         display: block;
+    }
+    .data-header {
+        background-color: #073642;
+        margin: 5px;
+        margin-left: 15px;
+        color: white;
+        text-align: center;
     }
 }
 
