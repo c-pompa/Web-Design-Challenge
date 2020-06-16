@@ -147,6 +147,9 @@
         background-color: rgb(41, 51, 59);
         text-align: center;
     }
+    .jexcel_content {
+        display: block;
+    }
 }
 
 
@@ -168,7 +171,7 @@
     .topnav-right {
         float: right;
     }
-    .jexcel_container {
+    .jexcel_content {
         display: block;
     }
 }
@@ -253,6 +256,10 @@
 
 /*-- data table --*/
 
-#spreadsheet {
+#spreadsheet1 {
     width: 100%;
+}
+
+.jexcel_content {
+    display: block;
 }
