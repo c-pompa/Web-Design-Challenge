@@ -102,6 +102,10 @@
         font-weight: bold;
         font-size: 26px;
     }
+    article img.index-image {
+        width: 295px;
+        margin-right: 5px
+    }
     #add {
         width: 100%;
         height: 330px;
@@ -109,6 +113,10 @@
     }
     #add img {
         width: 100px;
+    }
+    #add img.active {
+        border: solid;
+        border-color: #29333b;
     }
     figure {
         border: thin #c0c0c0 solid;
@@ -232,7 +240,7 @@
     }
     .article {
         height: 95%;
-        text-align: center;
+        text-align: left;
         padding: 15px 5px;
     }
     .container {
